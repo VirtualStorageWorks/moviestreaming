@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var omdb = require('./modules/omdb');
-var rottendb = require('./modules/rotten');
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -23,7 +23,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 //omdb.findByTitle('True Lies');
-rottendb.findByIMBD("tt0068646");
 app.use('/', routes);
 app.use('/users', users);
 
