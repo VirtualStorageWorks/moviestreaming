@@ -9,8 +9,8 @@ module.exports = {
         OperationHelper = require('apac').OperationHelper;
 
     var opHelper = new OperationHelper({
-        awsId: 'AKIAJQFYHLBKNTFUBY7Q',
-        awsSecret: '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',
+        awsId: Need awsId here (key),
+        awsSecret: Need awsSecret key here,
         assocId: 'streamingmo00-20'
         // xml2jsOptions: an extra, optional, parameter for if you want to pass additional options for the xml2js module. (see https://github.com/Leonidas-from-XIV/node-xml2js#options)
     });
