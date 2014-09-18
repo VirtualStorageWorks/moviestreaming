@@ -1,4 +1,4 @@
-var rotten = require("rotten-api")("zd9hb67xtun374wvwh5f6ngz");
+var rotten = require("rotten-api")("NeedKeyHere!");
 
 module.exports = {
     findByIMBD : function(imdb) {
